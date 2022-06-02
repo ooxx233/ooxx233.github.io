@@ -10,7 +10,7 @@
 	--button-radius: 0.7rem;
 
 	/* 大小 */
-	--max-width: 758px;
+	--max-width: 379px;
 	--max-height: 420px;
 
 	font-size: 16px;
@@ -30,6 +30,12 @@ body {
 	place-items: center;
 }
 
+.lijizhuce_wangjimima {
+    width: 630px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .form_title {
 	font-weight: 300;
 	margin: 0;
@@ -39,8 +45,8 @@ body {
 .link {
 	color: var(--gray);
 	font-size: 0.9rem;
-	margin: 1.5rem 0;
-	text-decoration: none;
+	margin: 1rem 0 0 0;
+	/* text-decoration: none; */
 }
 
 .container {
@@ -72,7 +78,7 @@ body {
 .container--signup {
 	left: 0;
 	opacity: 0;
-	width: 50%;
+	width: 100%;
 	z-index: 4;
 }
 
